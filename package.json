@@ -1,0 +1,28 @@
+{
+  "name": "remark-lint-no-hr-after-heading",
+  "version": "1.0.0",
+  "description": "remark-lint rule to warn when an hr appears after a heading",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [
+    "remark",
+    "lint",
+    "rule",
+    "hr",
+    "thematic",
+    "break"
+  ],
+  "author": "olizilla",
+  "license": "MIT",
+  "devDependencies": {
+    "remark": "^12.0.1",
+    "remark-lint": "^7.0.1",
+    "vfile-reporter": "^6.0.1"
+  },
+  "dependencies": {
+    "unified-lint-rule": "^1.0.6",
+    "unist-util-visit": "^2.0.3"
+  }
+}
